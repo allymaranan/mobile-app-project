@@ -1,0 +1,112 @@
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-img {
+  display: block;
+  max-width: 250px;
+  max-height: auto;
+  margin: auto;
+}
+
+#menu-account {
+  margin-top: 0px;
+  width: 375px;
+  display: flex;
+  padding-left: 5px;
+}
+
+ion-searchbar {
+  width: 1500px;
+  margin-right: 10px;
+}
+
+#account {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+#intro {
+  text-align: justify;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.images {
+  padding-top: 12px;
+  padding-bottom: 0px;
+  width: 450px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+ion-card {
+  margin-top: 8px;
+}
+
+h5 {
+  font-family: Helvetica; 
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.rate-view-details {
+  display: flex;
+}
+
+
+#rating {
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  color: black;
+}
+
+ion-button {
+  font-size: 13px;
+  display: block;
+  margin-left: 60px;
+  width: 100px;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+ion-card-title {
+  font-size: 23px;
+}
+
+p {
+  color: black;
+  padding-top: 10px;
+}
+
+#stars{
+  color: gold;
+}
