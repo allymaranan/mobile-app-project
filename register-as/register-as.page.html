@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>register as</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img id="logo" src="assets/img/logo-monochrome.png"></ion-img>
+
+  <ion-card class="regAs">
+    <ion-card-title>REGISTER AS</ion-card-title>
+
+    <ion-card-content class="regAsButton">     
+      <ion-button id="clientReg" [routerLink]="['/']" expand="block" fill="outline"><ion-icon name="person-sharp"></ion-icon>Client</ion-button>
+      <ion-button id= "ownerReg" [routerLink]="['/']" expand="block" fill="outline"><ion-icon name="person-sharp"></ion-icon>Owner</ion-button>      
+    </ion-card-content>
+  </ion-card>
+
+  <div>
+    <p> Already have an account? Login</p>
+  </div>
+
+  <div class="legalNote">
+    <ion-button id="policy" [routerLink]="['/']" size="small" expand="block" fill="none"> Privacy Policy </ion-button>
+    <ion-button id="terms" [routerLink]="['/']" size="small" expand="block" fill="none"> Terms and Conditions </ion-button>
+  </div>
+</ion-content>
