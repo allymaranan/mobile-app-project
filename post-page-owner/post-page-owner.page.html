@@ -1,0 +1,123 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ownerPostPage</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content>
+  <div>
+    <div class="return-box">
+      <ion-icon id="return" name="arrow-back-circle-outline"></ion-icon>
+    </div>
+
+    <div class="add-post-box">
+      <ion-button id= "add-post" [routerLink]="['/add-post-owner']" expand="block" fill="outline">Add Post</ion-button>
+    </div>
+  </div>
+  
+  <ion-searchbar id="searh-bar" showCancelButton="focus" placeholder="Search"></ion-searchbar>
+ 
+  <ion-card class="post-card">
+    <ion-card-content>
+      <div class="img-container">
+        <ion-img class= "image-post" src="assets/img/house1.jpg"></ion-img>
+      </div>
+ 
+      <div class="info-container">
+        <h1>House Name</h1>
+        <p><ion-icon name="pricetags"></ion-icon> N Reservation</p>
+        <p><ion-icon name="bed"></ion-icon> N Available Rooms</p>
+      </div>
+
+      <div class="button-container">
+        <ion-button id="view-as" expand="block" fill="outline"> View As</ion-button>
+        <ion-button id="update" expand="block" fill="outline"> Update </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+ 
+  <ion-card class="post-card">
+    <ion-card-content>
+      <div class="img-container">
+        <ion-img class= "image-post" src="assets/img/house2.jpg"></ion-img>
+      </div>
+ 
+      <div class="info-container">
+        <h1>House Name</h1>
+        <p><ion-icon name="pricetags"></ion-icon> N Reservation</p>
+        <p><ion-icon name="bed"></ion-icon> N Available Rooms</p>
+      </div>
+
+      <div class="button-container">
+        <ion-button id="view-as" expand="block" fill="outline"> View As</ion-button>
+        <ion-button id="update" expand="block" fill="outline"> Update </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+ 
+  <ion-card class="post-card">
+    <ion-card-content>
+      <div class="img-container">
+        <ion-img class= "image-post" src="assets/img/house3.jpg"></ion-img>
+      </div>
+ 
+      <div class="info-container">
+        <h1>House Name</h1>
+        <p><ion-icon name="pricetags"></ion-icon> N Reservation</p>
+        <p><ion-icon name="bed"></ion-icon> N Available Rooms</p>
+      </div>
+
+      <div class="button-container">
+        <ion-button id="view-as" expand="block" fill="outline"> View As</ion-button>
+        <ion-button id="update" expand="block" fill="outline"> Update </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="post-card">
+    <ion-card-content>
+      <div class="img-container">
+        <ion-img class= "image-post" src="assets/img/house4.jpg"></ion-img>
+      </div>
+ 
+      <div class="info-container">
+        <h1>House Name</h1>
+        <p><ion-icon name="pricetags"></ion-icon> N Reservation</p>
+        <p><ion-icon name="bed"></ion-icon> N Available Rooms</p>
+      </div>
+
+      <div class="button-container">
+        <ion-button id="view-as" expand="block" fill="outline"> View As</ion-button>
+        <ion-button id="update" expand="block" fill="outline"> Update </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-toolbar>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home" class="tab-info">
+        <ion-icon name="home-outline"></ion-icon>
+        <ion-label>Home</ion-label>
+        <ion-badge>10</ion-badge>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="post" class="tab-info">
+        <ion-icon name="clipboard-outline"></ion-icon>
+        <ion-label>Post</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="profile" class="tab-info">
+        <ion-icon name="person-circle-outline"></ion-icon>
+        <ion-label>Profile</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="logout" class="tab-info">
+        <ion-icon name="log-out-outline"></ion-icon>
+        <ion-label>Logout</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-toolbar>
+
