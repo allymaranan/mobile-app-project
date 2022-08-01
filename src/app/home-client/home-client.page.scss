@@ -1,3 +1,8 @@
+.intro-home-client {
+  border-top: 3px solid rgba(0, 0, 0, 0.432);
+  background-color: rgba(0, 128, 0, 0.055);
+}
+
 ion-menu-button {
     color: #171717;
   }
@@ -87,6 +92,7 @@ ion-menu-button {
     font-size: 25px;
     font-weight: bold;
     padding-left: 15px;
+    color: #013220;
   }
   
   #rating {
@@ -98,6 +104,11 @@ ion-menu-button {
   
   ion-card-title {
     font-size: 23px;
+    text-align: left;
+  }
+
+  ion-card-subtitle {
+    text-align: left;
   }
   
   .address {
@@ -165,3 +176,73 @@ ion-menu-button {
     --background: #013220;
     --color: white;
   }
+
+.card-top {
+  border-bottom: 3px solid rgb(25, 78, 25);
+  border-radius: 5px;
+  width: 345px;
+  height: 120px;
+  margin-left: 14px;
+  margin-bottom: 0px;
+}
+
+.card-top-2 {
+  width: 250px;
+  height: 110px;
+  float: left;
+}
+
+.card-top-3 {
+  width: 90px;
+  height: 70px;
+  float: right;
+  margin-top: 40px;
+}
+
+
+#scroll-down {
+  width: 90px;
+  height: 60px;
+  --border-color: white;
+  --background: white;
+  --background-activated: white;
+}
+
+#scroll-up {
+  width: 90px;
+  height: 60px;
+  --border-color: white;
+  --background: white;
+  --background-activated: white;
+  margin-left: 270px;
+  margin-bottom: 30px;
+}
+
+#arrow {
+  font-size: 50px;
+  color: rgb(25, 78, 25);
+}
+
+.add-info {
+  font-size: 14px;
+  font-family: Tahoma;
+  text-align: justify;
+}
+
+.click-info {
+  font-size: 13px;
+  font-family: Tahoma;
+}
+
+ion-slides {
+  height: auto;
+  --bullet-background: black;
+  --bullet-background-active: rgb(255, 136, 0);
+  
+}
+
+ion-slide {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}

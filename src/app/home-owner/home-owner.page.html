@@ -16,7 +16,7 @@
       <ion-text class="n-req"><ion-icon size="small" name="mail-outline"></ion-icon> N Reservation Request</ion-text>
     </div>
     <div class="req-button">
-      <ion-button class="view-req" fill="outline">View</ion-button>
+      <ion-button class="view-req" [routerLink]="['/reservation-request-owner']" fill="outline">View</ion-button>
     </div>    
   </div>
 
@@ -25,7 +25,7 @@
       <ion-text class="n-req"><ion-icon size="small" name="mail-unread-outline"></ion-icon> N Pending Request</ion-text>
     </div>
     <div class="req-button">
-      <ion-button class="view-req" fill="outline">View</ion-button>
+      <ion-button class="view-req" [routerLink]="['/pending-request-owner']" fill="outline">View</ion-button>
     </div>   
   </div>
 
@@ -34,7 +34,7 @@
       <ion-text class="n-req"><ion-icon size="small" name="checkmark-done-outline"></ion-icon> N Completed Reservation</ion-text>
     </div>
     <div class="req-button">
-      <ion-button class="view-req" fill="outline">View</ion-button>
+      <ion-button class="view-req" [routerLink]="['/completed-reservation-owner']" fill="outline">View</ion-button>
     </div>   
   </div>
 

@@ -1,12 +1,12 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>houseDetails</ion-title>
+    <ion-title>House Details</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-buttons>
-    <button id="back-box" ion-button [routerLink]="['/home']">
+    <button id="back-box" ion-button [routerLink]="['/home-client']">
       <ion-icon id="back" name="chevron-back-outline"></ion-icon>
     </button>
   </ion-buttons>
@@ -23,7 +23,7 @@
       <h1>Description</h1>
       <p>Bourbon Bliss provides lively, semi-furnished bedspace for rent in Alangilan, Batangas City, near schools like BatStateU - Alangilan, BatStateU - Main, LPU, UB, and mall namely SM Batangas. Its coliving areas enable networking opportunities over meals and late night couch chit chats with roomies.</p>
 
-      <ion-icon id="star-rating" size="small" name="star"></ion-icon><ion-icon id="star-rating" size="small" name="star"></ion-icon><ion-icon id="star-rating" size="small" name="star"></ion-icon><h2>3.0 rating</h2>
+      <ion-icon id="star-rating" size="small" name="star"></ion-icon><h2>3.0 rating</h2>
     </ion-card-content>
   </ion-card>
 
@@ -71,6 +71,7 @@
     <ion-card-subtitle class="info-title">Owner's Contact Details</ion-card-subtitle>
     <p class="info-owner"><ion-icon size="small" name="call"></ion-icon> 0912-345-6789</p>
     <p class="info-owner"><ion-icon size="small" name="logo-facebook"></ion-icon> Thomas Edison</p>
+    <p class="info-owner"><ion-icon size="small" name="mail"></ion-icon> thomased@gmail.com</p>
   </div>
 
   <div class="note">
@@ -79,10 +80,10 @@
 
   <div class="button-cont">
     <div class="prefer">
-      <ion-button id="prefer-button" expand="block" fill="outline">Add to Preferences</ion-button>
+      <ion-button id="prefer-button" [routerLink]="['/preferences-client']" expand="block" fill="outline">Add to Preferences</ion-button>
     </div>
     <div class="reserve">
-      <ion-button id="reserve-button" expand="block" fill="outline">Reserve</ion-button>
+      <ion-button (click)="presentAlert()" id="reserve-button" expand="block" fill="outline">Reserve</ion-button>
     </div>
   </div>
 
