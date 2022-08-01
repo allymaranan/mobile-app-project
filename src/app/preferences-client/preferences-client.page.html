@@ -1,19 +1,31 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>My Preferences</ion-title>
+    <div id="menu-account">
+      <ion-buttons slot="start">
+        <ion-menu-button menu="menu-content"></ion-menu-button>
+      </ion-buttons>
+      
+      <ion-toolbar id="account">
+        <ion-buttons>
+          <button id="prof-box" ion-button [routerLink]="['/home-client']">
+            <ion-icon id="profile" size="large" name="person-circle-outline"></ion-icon>
+          </button>
+        </ion-buttons>
+      </ion-toolbar>
+    </div>
+    
+    <ion-title>DormAlike</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-img src="assets/img/logo-monochrome.png"></ion-img>
-
   <ion-buttons>
     <button id="back-box" ion-button [routerLink]="['/home-client']">
       <ion-icon id="back" name="chevron-back-outline"></ion-icon>
     </button>
   </ion-buttons>
 
-  <h1><ion-icon slot="start" size="default" name="home"></ion-icon> Preferences</h1>
+  <h1>Preferences</h1>
   
   <ion-card class="card-home">
     <ion-img class="images" src="assets/img/house1.jpg"></ion-img>

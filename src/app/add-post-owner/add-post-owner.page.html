@@ -1,15 +1,14 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Owner/Add Post</ion-title>
+    <ion-title>DormAlike</ion-title>
   </ion-toolbar>
 </ion-header>
  
 <ion-content>
-  <ion-img id="logo" src="assets/img/logo-monochrome.png"></ion-img>
 
   <ion-buttons>
-    <button id="return-box" ion-button [routerLink]="['/']">
-      <ion-icon id="return" name="arrow-back-circle-outline"></ion-icon>
+    <button id="return-box" ion-button [routerLink]="['/post-page-owner']">
+      <ion-icon id="return" name="chevron-back-outline"></ion-icon>
     </button>
   </ion-buttons>
 
@@ -138,22 +137,22 @@
     </ion-card-content>
   </ion-card>
  
-  <ion-button id="save-post-button" expand="block" fill="outline">Save</ion-button>
+  <ion-button id="save-post-button" (click)="presentAlert()" expand="block" fill="outline">Save</ion-button>
  
 </ion-content>
 
 <ion-toolbar>
   <ion-tabs>
     <ion-tab-bar slot="bottom">
-      <ion-tab-button tab="home" class="tab-info">
+      <ion-tab-button tab="home" class="tab-info"> 
         <ion-icon name="home-outline"></ion-icon>
         <ion-label>Home</ion-label>
         <ion-badge>10</ion-badge>
       </ion-tab-button>
   
       <ion-tab-button tab="post" class="tab-info">
-        <ion-icon name="clipboard-outline"></ion-icon>
-        <ion-label>Post</ion-label>
+        <ion-icon id="highlight"name="clipboard-outline"></ion-icon>
+        <ion-label id="highlight">Post</ion-label>
       </ion-tab-button>
   
       <ion-tab-button tab="profile" class="tab-info">

@@ -44,10 +44,6 @@ const routes: Routes = [
     loadChildren: () => import('./privacy-policy/privacy-policy.module').then( m => m.PrivacyPolicyPageModule)
   },
   {
-    path: 'privacy-policy-client-owner',
-    loadChildren: () => import('./privacy-policy-client-owner/privacy-policy-client-owner.module').then( m => m.PrivacyPolicyClientOwnerPageModule)
-  },
-  {
     path: 'terms-and-conditions',
     loadChildren: () => import('./terms-and-conditions/terms-and-conditions.module').then( m => m.TermsAndConditionsPageModule)
   },
@@ -142,6 +138,10 @@ const routes: Routes = [
   {
     path: 'house-details10',
     loadChildren: () => import('./house-details10/house-details10.module').then( m => m.HouseDetails10PageModule)
+  },
+  {
+    path: 'reserved-property-client',
+    loadChildren: () => import('./reserved-property-client/reserved-property-client.module').then( m => m.ReservedPropertyClientPageModule)
   },
 ];
 

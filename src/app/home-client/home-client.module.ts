@@ -8,12 +8,15 @@ import { HomeClientPageRoutingModule } from './home-client-routing.module';
 
 import { HomeClientPage } from './home-client.page';
 
+import { RouterModule } from '@angular/router';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomeClientPageRoutingModule
+    HomeClientPageRoutingModule,
+    RouterModule
   ],
   declarations: [HomeClientPage]
 })

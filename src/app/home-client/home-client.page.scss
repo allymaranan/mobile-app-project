@@ -1,4 +1,4 @@
-.intro-home-client {
+.intro-home-client { 
   border-top: 3px solid rgba(0, 0, 0, 0.432);
   background-color: rgba(0, 128, 0, 0.055);
 }
@@ -8,7 +8,7 @@ ion-menu-button {
   }
 
 #prof-box {
-  background-color: white;
+  background-color: rgba(204, 194, 194, 0.068);
 }
 
 #profile {
@@ -64,6 +64,7 @@ ion-menu-button {
   
   ion-searchbar {
     width: 1500px;
+    margin-top: 12px;
   
   }
   

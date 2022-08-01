@@ -1,12 +1,10 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Edit Owner's Profile</ion-title>
+    <ion-title>DormAlike</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-img src="assets/img/logo-monochrome.png"></ion-img>
-
   <ion-buttons>
     <button id="back-box" ion-button [routerLink]="['/profile-owner']">
       <ion-icon id="back" name="chevron-back-outline"></ion-icon>
@@ -17,40 +15,40 @@
 
   <div class="card-edit-1-2">
     <div class="text-edit-cont">
-      <ion-label><ion-icon class="icons" size="default" name="pencil-outline"></ion-icon> First Name</ion-label>
+      <ion-label class="label"><ion-icon class="icons" size="default" name="pencil-outline"></ion-icon> First Name</ion-label>
       <ion-input type="text" clearInput value="" placeholder="Input first name"></ion-input>
     </div>     
 
     <div class="text-edit-cont-1">
-      <ion-label>Last Name</ion-label>
+      <ion-label class="label">Last Name</ion-label>
       <ion-input type="text" clearInput value="" placeholder="Input last name"></ion-input>
     </div>
   </div>
 
   <div class="card-edit-3">
     <div class="text-edit">
-      <ion-label><ion-icon class="icons" size="default" name="pencil-outline"></ion-icon> Username</ion-label>
+      <ion-label class="label"><ion-icon class="icons" size="default" name="pencil-outline"></ion-icon> Username</ion-label>
       <ion-input type="text" clearInput value="" placeholder="Input username"></ion-input>
     </div>
   </div>
 
   <div class="card-edit-4">
     <div class="text-edit">
-      <ion-label><ion-icon class="icons" size="default" name="call-outline"></ion-icon> Contact Number</ion-label>
+      <ion-label class="label"><ion-icon class="icons" size="default" name="call-outline"></ion-icon> Contact Number</ion-label>
       <ion-input type="text" clearInput value="" placeholder="Input contact number"></ion-input>
     </div>
   </div>
 
   <div class="card-edit-5">
     <div class="text-edit">
-      <ion-label><ion-icon class="icons" size="default" name="mail-outline"></ion-icon> Email</ion-label>
+      <ion-label class="label"><ion-icon class="icons" size="default" name="mail-outline"></ion-icon> Email</ion-label>
       <ion-input type="text" clearInput value="" placeholder="Input email"></ion-input>
     </div>
   </div>
 
   <div class="card-edit-6">
     <div class="text-edit">
-      <ion-label><ion-icon class="icons" size="default" name="eye-off-outline"></ion-icon> Password</ion-label>
+      <ion-label class="label"><ion-icon class="icons" size="default" name="eye-off-outline"></ion-icon> Password</ion-label>
       <ion-input type="password" placeholder="Input password"></ion-input>
     </div>
   </div>
@@ -73,8 +71,8 @@
       </ion-tab-button>
   
       <ion-tab-button tab="profile" class="tab-info">
-        <ion-icon name="person-circle-outline"></ion-icon>
-        <ion-label>Profile</ion-label>
+        <ion-icon id="highlight" name="person-circle-outline"></ion-icon>
+        <ion-label id="highlight">Profile</ion-label>
       </ion-tab-button>
   
       <ion-tab-button tab="logout" class="tab-info">

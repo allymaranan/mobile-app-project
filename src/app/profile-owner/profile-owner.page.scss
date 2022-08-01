@@ -13,6 +13,7 @@ ion-img {
 
 #back-box {
     background-color: white;
+    margin-top: 25px;
 }
 
 .icons {
@@ -102,9 +103,18 @@ ion-img {
 #edit-prof {
     width: 150px;
     height: 35px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 115px;
     font-size: 14px;
     color: #FF4F1F;
     --border-color: #FF4F1F;
+}
+
+.tab-info {
+    color: #404040;
+    font-size: 11px;
+}
+
+#highlight {
+    color: #fc6a03;
 }

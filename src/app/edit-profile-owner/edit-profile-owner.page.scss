@@ -5,7 +5,7 @@ ion-img {
     margin: auto;
 }
 
-ion-label {
+.label {
     font-size: 17px;
     margin-left: 10px;   
 }
@@ -23,6 +23,7 @@ ion-input {
 
 #back-box {
     background-color: white;
+    margin-top: 15px;
 }
 
 .icons {
@@ -112,4 +113,15 @@ ion-input {
     font-size: 14px;
     color: #FF4F1F;
     --border-color: #FF4F1F;
+    margin-bottom: 20px;
+}
+
+.tab-info {
+    color: #404040;
+    font-size: 11px;
+    
+}
+
+#highlight {
+    color: #fc6a03;
 }

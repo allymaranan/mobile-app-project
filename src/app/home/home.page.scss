@@ -100,6 +100,11 @@ h5 {
 
 ion-card-title {
   font-size: 23px;
+  text-align: left;
+}
+
+ion-card-subtitle {
+  text-align: left;
 }
 
 .address {
@@ -166,4 +171,38 @@ ion-card-title {
   --border-color: white;
   --background: #013220;
   --color: white;
+}
+
+#scroll-up {
+  width: 90px;
+  height: 60px;
+  --border-color: white;
+  --background: white;
+  --background-activated: white;
+  margin-left: 270px;
+  margin-bottom: 30px;
+}
+
+#arrow {
+  font-size: 50px;
+  color: rgb(25, 78, 25);
+}
+
+ion-slides {
+  height: auto;
+  --bullet-background: black;
+  --bullet-background-active: rgb(255, 136, 0);
+  
+}
+
+ion-slide {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+#swipe {
+  font-size: 13px;
+  font-family: Tahoma;
+  font-weight: 100;
 }

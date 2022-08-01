@@ -17,6 +17,7 @@ ion-img {
 
 #back-box {
     background-color: white;
+    margin-top: 25px;
 }
 
 .icons {
@@ -106,9 +107,35 @@ ion-img {
 #edit-prof {
     width: 150px;
     height: 35px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 115px;
     font-size: 14px;
     color: #FF4F1F;
     --border-color: #FF4F1F;
 }
+
+#menu-account {
+    margin-top: 0px;
+    width: 375px;
+    display: flex;
+    padding-left: 5px;
+  }
+
+  #account {
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: 260px;
+  }
+
+  #prof-box {
+    background-color: rgba(204, 194, 194, 0.068);
+    
+  }
+  
+  #profile {
+    width: 36px;
+    height: 36px;
+    color: #D15F20;
+  }
+
+  

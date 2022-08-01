@@ -13,6 +13,7 @@ ion-img {
 
 #back-box {
     background-color: white;
+    margin-top: 25px;
 }
 
 h1 {
@@ -98,4 +99,32 @@ h1 {
     --border-color: white;
     --background: #013220;
     --color: white;
+  }
+
+  #menu-account {
+    margin-top: 0px;
+    width: 375px;
+    display: flex;
+    padding-left: 5px;
+  }
+
+  #account {
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: 260px;
+  }
+
+  #prof-box {
+    background-color: rgba(204, 194, 194, 0.068);
+    
+  }
+  
+  #profile {
+    width: 36px;
+    height: 36px;
+    color: #D15F20;
+  }
+
+  ion-menu-button {
+    color: black;
   }

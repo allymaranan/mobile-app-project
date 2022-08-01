@@ -12,6 +12,7 @@ ion-card {
 
 #back-box {
     background-color: white;
+    margin-top: 15px;
 }
 
 .completed-cont {
@@ -52,4 +53,19 @@ ion-card {
     text-align: right;
     font-family: Tahoma;
     padding-bottom: 5px;
+}
+
+.tab-info {
+    color: #404040;
+    font-size: 11px;
+}
+
+#highlight {
+    color: #fc6a03;
+}
+
+h1 {
+    font-family: Tahoma;
+    font-size: 23px;
+    margin-left: 15px;
 }
