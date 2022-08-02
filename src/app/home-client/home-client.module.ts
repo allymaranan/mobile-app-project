@@ -10,13 +10,16 @@ import { HomeClientPage } from './home-client.page';
 
 import { RouterModule } from '@angular/router';
 
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
     HomeClientPageRoutingModule,
-    RouterModule
+    RouterModule,
+    Ng2SearchPipeModule,
   ],
   declarations: [HomeClientPage]
 })

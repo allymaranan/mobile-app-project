@@ -12,4 +12,13 @@ export class LoginOwnerPage implements OnInit {
   ngOnInit() {
   }
 
+  public form = {
+    username: "",
+    password: "",
+  }
+
+  print() {
+    console.log(this.form)
+  }
+
 }

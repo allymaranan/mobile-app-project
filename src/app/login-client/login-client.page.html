@@ -19,15 +19,15 @@
     <ion-card-content class="userInput">
       <div class="userName">
         <ion-icon class="icon" size="large" name="person-sharp"></ion-icon> 
-        <ion-input id="name" type="text" placeholder="Username"></ion-input>
+        <ion-input id="name" type="text" [(ngModel)] = "form.username" required placeholder="Username"></ion-input>
       </div>
       <div class="userPass">
         <ion-icon class="icon" size="large" name="lock-closed"></ion-icon> 
-        <ion-input id="pass" type="password" placeholder="Password"></ion-input>
+        <ion-input id="pass" type="password" [(ngModel)] = "form.password" required placeholder="Password"></ion-input>
       </div>
-      <p id="forgotpw">Forgot Your Password?</p>
+      
       <div class="rememberMe">
-        <ion-button id="logIn" [routerLink]="['/home-client']" size="small" expand="block" fill="outline">Log in</ion-button>
+        <ion-button id="logIn" (click)="print()" [routerLink]="['/home-client']" size="small" expand="block" fill="outline">Log in</ion-button>
       </div>
     </ion-card-content>
   </ion-card>

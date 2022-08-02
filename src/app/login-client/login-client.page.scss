@@ -18,8 +18,8 @@
 
 ion-card {
     --background: #F5F5F5;
-    border-right: 2px solid #466D1D;
-    border-bottom: 2px solid #466D1D;
+    border-left: 2px solid #466D1D;
+    
 }
 
 .icon {
@@ -35,6 +35,7 @@ ion-card {
 
 .userName {
     display: flex;
+    margin-top: 10px;
 }
 
 #name {

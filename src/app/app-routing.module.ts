@@ -143,6 +143,18 @@ const routes: Routes = [
     path: 'reserved-property-client',
     loadChildren: () => import('./reserved-property-client/reserved-property-client.module').then( m => m.ReservedPropertyClientPageModule)
   },
+  {
+    path: 'house-details1',
+    loadChildren: () => import('./viewAs/house-details1/house-details1.module').then( m => m.HouseDetails1PageModule)
+  },
+  {
+    path: 'house-details2',
+    loadChildren: () => import('./viewAs/house-details2/house-details2.module').then( m => m.HouseDetails2PageModule)
+  },
+  {
+    path: 'house-details3',
+    loadChildren: () => import('./viewAs/house-details3/house-details3.module').then( m => m.HouseDetails3PageModule)
+  }
 ];
 
 @NgModule({

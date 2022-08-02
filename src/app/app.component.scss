@@ -58,6 +58,23 @@
     display: flex;
 }
 
+.button1 {
+    --background: none;
+    --background-activated: none;
+    color: white;
+    height: 30px;
+    font-size: 17px;
+    font-family: Tahoma;
+    margin: 0;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+}
+
 .option-icons {
     color: #014421;
 }

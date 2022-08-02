@@ -12,4 +12,16 @@ export class RegisterClientPage implements OnInit {
   ngOnInit() {
   }
 
+  public form = {
+    firstname: "",
+    lastname: "",
+    email: "",
+    username: "",
+    password: ""
+  }
+
+  print() {
+    console.log(this.form)
+  }
+
 }

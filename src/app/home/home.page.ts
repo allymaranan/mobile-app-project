@@ -24,6 +24,7 @@ export class HomePage {
     await alert.present();
   }
 
+  searchTerm;
   house: any[] = [
     {
       "houseimg": 'assets/img/house1.jpg',

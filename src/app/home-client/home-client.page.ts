@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import {IonContent} from '@ionic/angular';
-
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 @Component({
   selector: 'app-home-client',
@@ -11,8 +11,8 @@ export class HomeClientPage {
   @ViewChild ( IonContent, { static:true })
   content: IonContent
 
-  constructor() { }
-  house: any[] = [
+  searchTerm: any;
+  house = [
     {
       "houseimg": 'assets/img/house1.jpg',
       "housename": "Bourbon Bliss",
@@ -370,6 +370,8 @@ export class HomeClientPage {
     
     
   ];
+
+  constructor() { }
 
   ngOnInit() {
   }
