@@ -53,6 +53,7 @@ ion-img {
   width: 40px;
   height: 40px;
   color: #D15F20;
+  background-color: #fcfbf4ab;
 }
 
 #account-box {
@@ -211,4 +212,8 @@ ion-slide {
   font-size: 13px;
   font-family: Tahoma;
   font-weight: 100;
+}
+
+ion-content {
+  --background: #fcfbf4ab;
 }

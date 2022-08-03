@@ -6,9 +6,14 @@
       </ion-buttons>
       
       <ion-toolbar id="account">
-        <ion-buttons>
-          <button id="prof-box" ion-button [routerLink]="['/home-client']">
-            <ion-icon id="profile" size="large" name="person-circle-outline"></ion-icon>
+        <ion-buttons class="icon1">
+          <button id="prof-box" ion-button [routerLink]="['/profile-client']">
+            <ion-icon id="profile" size="small" name="person-circle-outline"></ion-icon>
+          </button>
+        </ion-buttons>
+        <ion-buttons class="icon2">
+          <button id="prof-box" ion-button [routerLink]="['/get-started']">
+            <ion-icon id="profile1" size="small" name="log-out-outline"></ion-icon>
           </button>
         </ion-buttons>
       </ion-toolbar>

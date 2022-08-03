@@ -65,7 +65,7 @@ ion-menu-button {
   
   ion-img {
     display: block;
-    max-width: 200px;
+    max-width: 250px;
     max-height: auto;
     margin: auto;
   }
@@ -95,7 +95,7 @@ ion-menu-button {
     height: 45px;
     
     padding-right: 10px;
-    margin-left: 80px;
+    margin-left: 220px;
     margin-top: 5px;
     border: none;
   }
@@ -290,3 +290,6 @@ ion-slide {
   color: #8c8c8c;
 }
 
+ion-content {
+  --background: #fcfbf4ab;
+}

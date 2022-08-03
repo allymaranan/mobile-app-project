@@ -29,8 +29,8 @@
       </div>
 
       <div class="req-cont-3">
-        <ion-button id="accept" fill="outline">Accept</ion-button>
-        <ion-button id="decline" fill="outline">Decline</ion-button>
+        <ion-button (click)="presentAccept()" [routerLink]="['/completed-reservation-owner']" id="accept" fill="outline">Accept</ion-button>
+        <ion-button (click)="presentDecline()" id="decline" fill="outline">Decline</ion-button>
       </div>
     </ion-card-content>
   </ion-card>

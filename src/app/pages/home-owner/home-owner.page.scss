@@ -1,6 +1,6 @@
 ion-img {
     display: block;
-    max-width: 200px;
+    max-width: 250px;
     max-height: auto;
     margin: auto;
 }
@@ -57,7 +57,7 @@ ion-img {
 }
 
 .n-req {
-    font-size: 15px;
+    font-size: 14px;
     font-family: Verdana;
 }
 
@@ -96,4 +96,8 @@ ion-img {
 canvas {
     margin-left: 15px;
     margin-right: 15px;
+}
+
+ion-content {
+    --background: #fcfbf4ab;
 }

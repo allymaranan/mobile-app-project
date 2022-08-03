@@ -12,4 +12,17 @@ export class EditProfileClientPage implements OnInit {
   ngOnInit() {
   }
 
+  public form = {
+    firstname: "",
+    lastname: "",
+    username: "",
+    contactnumber: "",
+    email: "",
+    password: "",
+  }
+
+  print() {
+    console.log(this.form)
+  }
+
 }

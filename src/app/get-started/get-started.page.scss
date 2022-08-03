@@ -1,24 +1,18 @@
-.content-bg {
-    background: url(/assets/img/bg-home.jpg) 0 0/100% 100% no-repeat !important;
-    width: 375px;
-    height: 300px;
-    margin: 0;
-    padding: 0;
-}
+
 
 #logo {
     max-width: 250px;
     max-height: auto;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 #caption {
-    margin-top: 40px;
     text-align: center;
     font-size: 15px;
     font-family: Tahoma;
     color: #7f5539;
+    margin-top: 50px;
 }
 
 #startReg {
@@ -77,4 +71,8 @@ ion-icon {
     margin: auto;
     color: #502F0C;
     font-size: 15px;
+}
+
+ion-content {
+    --background: #fcfbf4;
 }

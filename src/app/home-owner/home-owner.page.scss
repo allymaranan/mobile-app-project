@@ -1,6 +1,6 @@
 ion-img {
     display: block;
-    max-width: 200px;
+    max-width: 250px;
     max-height: auto;
     margin: auto;
 }
@@ -102,3 +102,7 @@ canvas {
     --background: var(--ion-color-success-tint) !important;
     --color-selected: var(--ion-color-light);
   }
+
+  ion-content {
+    --background: #fcfbf4ab;
+}
